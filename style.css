@@ -65,16 +65,8 @@ header{
 }
 
 .logo > img{
-    width: 25px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.logo > h1{
-    font-family: 'Pretendard Variable', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--color-black);
+    width: 115px;
+    height: 32px;
 }
 
 .header-wrapper > a{
@@ -124,7 +116,7 @@ header{
     padding: 8px 20px;
 }
 
-.banner-wrapper > h2{
+.banner-wrapper > h1{
     font-family: 'Pretendard Variable', sans-serif;
     font-size: 48px;
     font-weight: 800;
@@ -134,18 +126,18 @@ header{
     margin-bottom: 20px;
 }
 
-.banner-wrapper > h2 > br:nth-of-type(2){
+.banner-wrapper > h1 > br:nth-of-type(2){
     display: none;
 }
 
-.banner-wrapper > h3{
+.banner-wrapper > h2{
     font-family: 'Pretendard Variable', sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: var(--color-black);
 }
 
-.banner-wrapper > h3 > br{
+.banner-wrapper > h2 > br{
     display: none;
 }
 
@@ -661,11 +653,11 @@ footer{
         padding-bottom: 60px;
     }
 
-    .banner-wrapper > h2{
+    .banner-wrapper > h1{
         font-size: 40px;
     }
 
-    .banner-wrapper > h3{
+    .banner-wrapper > h2{
         font-size: 20px;
     }
 
@@ -857,31 +849,31 @@ footer{
         font-size: 14px;
     }
 
-    .banner-wrapper > h2{
+    .banner-wrapper > h1{
         font-size: 32px;
         margin-top: 16px;
         margin-bottom: 16px;
         word-break: keep-all;
     }
 
-    .banner-wrapper > h2 > span{
+    .banner-wrapper > h1 > span{
         display: none;
     }
 
-    .banner-wrapper > h2 > br{
+    .banner-wrapper > h1 > br{
         display: none;
     }
 
-    .banner-wrapper > h2 > br:nth-of-type(2){
+    .banner-wrapper > h1 > br:nth-of-type(2){
         display: block;
     }
 
-    .banner-wrapper > h3{
+    .banner-wrapper > h2{
         font-size: 18px;
         line-height: 150%;
         word-break: keep-all;
     }
-    .banner-wrapper > h3 > br{
+    .banner-wrapper > h2 > br{
         display: block;
     }
 
